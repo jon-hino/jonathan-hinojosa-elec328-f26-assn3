@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7641228858345388428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5637815302456920050}
+  - component: {fileID: 2216968440199062721}
+  m_Layer: 0
+  m_Name: Crowd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5637815302456920050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641228858345388428}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2216968440199062721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641228858345388428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a158937e7014897a8ae872fb9a1025, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ELEC328.Assignment3.ParticleBenchmark
+  visual: 2
+  renderStrategy: 1
+  particleCount: 1000
+  animate: 1
+  particleMesh: {fileID: 4300000, guid: 301fe431fc2bf40c9b5c7d59924456d6, type: 2}
+  gameObjectMaterial: {fileID: 2100000, guid: ae6d94427154c4c598981dee3fd221e7, type: 2}
+  instancedMaterial: {fileID: 2100000, guid: 3bb5e0b38c11740f68bd639413b4c9a5, type: 2}
+  randomSeed: 328
+  simulationSpeed: 1
+  sparkBurstInterval: 2.25
+  automaticSparkBursts: 1
